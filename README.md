@@ -1,3 +1,1 @@
-# yikewang
-# yikewang
-# yikewang
+#下载下来直接打开index.html就能用了。页面效果做的和慕课网差不多，肯定没有慕课网优秀，这只是我个人技术的练习作品。
