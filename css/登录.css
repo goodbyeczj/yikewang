@@ -1,0 +1,106 @@
+<style type="text/css">
+#sapn{
+
+}
+#contain{
+ 	overflow: hidden;
+ 	margin: 0 auto;
+}
+#header{
+	background: #FFFFFF;
+    
+}
+#menu{
+	text-decoration: none;
+}
+#menu li{
+	float: left;
+	margin: 10px;
+}
+#menu li a{
+	text-decoration: none;
+	display: block;
+	padding: 8px 50px;
+}
+#menu li a:hover{
+	background: red;
+}
+#top{
+
+}
+#maincontain{
+
+}
+#left{
+
+}
+#right{
+
+}
+#center{
+
+}
+#footer{
+
+}
+.icon-search:before {
+    content: "\e610";
+}
+body{
+	background-image: url(../imgs/505.jpg);
+	background-repeat: no-repeat;	
+}
+.center1{
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: center;
+	background-color: #dcb5ff;
+	width: 290px;
+	padding-top: 10px;
+	margin-top: 200px;
+
+}
+.img{
+
+}
+.cp{
+	color: #0f0f0f;
+	font-size: 15px;
+}
+.cp input{
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-bottom: 1px solid #ff0080;
+	outline-style: none;
+	padding-top: 5px;
+}
+.jl{
+	width: 42.67px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.jz{
+	font-size: 12px;
+	margin-right: 20px;
+}
+.pd{
+	padding-right: 100px;
+}
+#bt{
+	border:2px solid #ff0080;
+	color: blue;
+	font-weight: 2pt;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+input:required:invalid{
+	border-color: red;
+}
+input:required:valid{
+	border-color: green;
+}
+
+</style>

@@ -1,0 +1,249 @@
+<style type="text/css">
+	#content{
+		margin: 0 auto;
+	}
+	#header{
+		height: 72px;
+		background: #FFFFFF;
+		margin-bottom: 20px;
+		z-index: 999;
+		box-shadow: 1px 2px 3px #3c3c3c;
+	}
+#menu {
+font-size: 12px;
+font-weight: bolder;
+margin: 0;
+}
+#menu li{
+list-style-image: none;
+list-style-type: none;
+float: left;
+}
+#menu li a{
+    padding: 0 20px;
+    display: block;
+    color: #4D555D;
+    text-align: center;
+    font-size: 16px;
+    line-height: 72px;
+}
+#menu li a:hover{
+color: #0099CC;
+}
+.jl{
+	padding-top: 27px;
+	padding-right: 130px;
+}
+.br{
+	padding-top: 30px;
+
+}
+.copy a{
+	color: #66b3ff;
+}
+.br input{
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-bottom: 1px solid #ff0080;
+	outline: none;
+	font-size: 16px;
+	color: #4D555D;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	display: block;
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+
+	#maincontent{
+		height: 250px;
+		margin-bottom: 50px;
+		background: #FFFFFF;
+		margin-left:110px;
+		margin-right: 110px;
+		padding-top: 10px;
+    transform: scale(1);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.5s, transform 0.5s;
+	}
+	#maincontent:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.5s, transform 0.5s;
+	}
+	#maincontent table tr td a{
+		color: #6c6c6c;
+	}
+#maincontent table tr td a:hover{
+	color: red;
+}
+.floating{
+	width: 1250px;
+	height: 950px;
+	background-color: #FFFFFF;
+border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 2px 4px 6px #3c3c3c;
+        position:relative;
+        margin: 0 auto;
+}
+#ma{
+	width: 1129px;
+	margin: 0 auto;
+}
+#ma td{
+	max-width: 271px;
+	overflow : hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.floating td {
+    position: relative;
+
+    transform: translateY(0);
+    transition: transform 1s;
+
+}
+.floating td a{
+	color: #02c874;
+}
+.floating td a:hover{
+	color: red;
+	font-weight: 800pt;
+}
+.floating td img{
+	border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+}
+.floating td:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    height: 8px;
+    width: 100%;
+/*    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);*/
+    border-radius: 50%;
+/*    background-color: rgba(0, 0, 0, 0.2);*/
+    transform: translate(-50%, 0);
+    transition: transform 1s;
+}
+/* Hover States */
+.floating td:hover {
+    transform: translateY(-40px);
+    transition: transform 1s;
+}
+.floating td:hover:after {
+    transform: translate(-50%, 40px) scale(0.75);
+    transition: transform 1s;
+}	
+	#maincontent1{
+		width: 950px;
+		height: 1100px;
+		margin-bottom: 10px;
+		background: #FFFFFF;
+		float: left;
+	}
+	#maincontent2{
+		width: 148px;
+		height: 600px;
+		margin-bottom: 10px;
+		background: #FFFFFF;
+		margin-right: 70px;
+		float: left;
+		margin-left: 30px;
+	}
+	#maincontent3{
+	margin-left: 72px;
+	overflow: hidden;
+	}
+	#left{
+		height: 500px;
+		width: 20%;
+		background: yellow;
+		z-index: 1;
+		float: left;
+	}
+	#center{
+		height: 500px;
+		width: 20%;
+		background: purple;
+		z-index: 1;
+		float: left;
+	}
+	#right{
+		height: 500px;
+		width: 20%;
+		background: pink;
+		z-index: 1;
+		float: left;
+	}
+	#footer{
+		height: 100px;
+		background: brown;
+	}
+	body{
+		background: #f4f4f4;
+		margin:0;
+		position: relative;
+		overflow-x: hidden;
+	}
+	.cb{
+		background: #666;
+		width: 100%;
+	}
+	.cb tr td{
+		color: #ffd306;
+	}
+	.cb tr td a{
+		color: #ff8000;
+	}
+	#cw{
+		color: #fafafa;
+	}
+	a.btn-search {
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #57bc4c;
+    color: #fff;
+}
+.course-category-li {
+    float: left;
+    width: 1090px;
+    border-bottom: 1px dashed #ddd;
+    padding: 10px 0 4px;
+    overflow: hidden;
+}
+.course-category-li td a:hover{
+	color: red;
+}
+.fl {
+    float: left;
+}
+#maincontent2 ul {
+    background: #fff;
+}
+#maincontent2 ul li {
+    border-bottom: 1px solid #eee;
+    padding: 16px 19px 13px 20px;
+}
+.clearfix {
+    zoom: 1;
+}
+li{
+	list-style-type: none;
+}
+</style>

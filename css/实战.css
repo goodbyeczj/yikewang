@@ -1,0 +1,168 @@
+<style>
+	#content{
+		margin: 0 auto;
+	}
+	#header{
+		height: 72px;
+		background: #FFFFFF;
+		margin-bottom: 20px;
+		z-index: 999;
+		box-shadow: 1px 2px 3px #3c3c3c;
+	}
+#menu {
+font-size: 12px;
+font-weight: bolder;
+margin: 0;
+}
+#menu li{
+list-style-image: none;
+list-style-type: none;
+float: left;
+}
+#menu li a{
+    padding: 0 20px;
+    display: block;
+    color: #4D555D;
+    text-align: center;
+    font-size: 16px;
+    line-height: 72px;
+}
+
+#menu li a:hover{
+color: #0099CC;
+}
+.jl{
+	padding-top: 27px;
+	padding-right: 130px;
+}
+.br{
+	padding-top: 30px;
+
+}
+#ma{
+	width: 1129px;
+	height: 1100px;
+	background: #FFFFFF;
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+    transform: scale(1);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.5s, transform 0.5s;
+}
+#ma:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.5s, transform 0.5s;
+}
+#ma td{
+	max-width: 271px;
+	overflow : hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+#ma table tr td {
+	color: #00db00;
+}
+#ma table tr td:hover {
+	color: red;
+}
+.floating td {
+    position: relative;
+
+    transform: translateY(0);
+    transition: transform 1s;
+
+}
+.floating td a{
+	color: #ff77ff;
+}
+.floating td a:hover{
+	color: red;
+	font-weight: 800pt;
+}
+.floating td img{
+	border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+}
+.floating td:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    height: 8px;
+    width: 100%;
+/*    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);*/
+    border-radius: 50%;
+/*    background-color: rgba(0, 0, 0, 0.2);*/
+    transform: translate(-50%, 0);
+    transition: transform 1s;
+}
+/* Hover States */
+.floating td:hover {
+    transform: translateY(-40px);
+    transition: transform 1s;
+    	color: red;
+}
+.floating td:hover:after {
+    transform: translate(-50%, 40px) scale(0.75);
+    transition: transform 1s;
+}
+.br input{
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-bottom: 1px solid #ff0080;
+	outline: none;
+	font-size: 16px;
+	color: #4D555D;
+}
+.ys{
+	color: red;
+}
+.ys ul li{
+	float: left;
+	padding-left: 20px;
+	overflow: hidden;
+}
+li{
+	list-style: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #84c1ff
+}
+a:hover{
+	color: red;
+}
+.dx{
+	color: black;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+	overflow-x: hidden;
+}
+.kjl{
+	height: 100px;
+	background-color: #FFFFFF;
+	margin-bottom:10px;
+}
+.fr{
+	width: 600px;
+	float: right;
+	overflow: hidden;
+}
+/*.fr ul li{
+	float: left;
+	overflow: hidden;
+}*/
+</style>

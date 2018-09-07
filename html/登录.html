@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>登录</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<link rel="stylesheet" type="text/css" href="../css/登录.css">
+<script src="../js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+$('#login :text:first').focus();
+}); // end ready
+  function rec()
+{
+   var a=form1.account.value;
+   var b=form1.password.value;
+   if(a=="admin"&&b=="123456")
+   alert("Submit Successful");
+   else
+   alert("Error");
+}
+</script>
+
+</head>
+<body>
+	<center>
+		<h2>Welcome to Easy Course</h2>
+	<div class="img">
+<div class="center1">
+	<form id="login" name="form1">
+		<div class="cp">&nbsp;&nbsp;Account:&nbsp;<input type="text" name="account" required></div><br>
+		<div class="cp">Password:&nbsp;<input type="password" name="password" ></div>
+		<div class="jz">
+			<div class="pd">Remenber Password:
+				<input type="checkbox" name="checkbox" >
+			</div>
+		</div>
+		<div class="jl" ><input type="submit" name="submit" id="bt" onclick="rec()"></div>
+	</form>
+</div>
+</div>
+</center>	
+</body>
+</html>
